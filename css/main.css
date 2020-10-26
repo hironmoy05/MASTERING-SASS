@@ -1,0 +1,87 @@
+.nav {
+  background-color: orange; }
+  .nav ul li {
+    list-style: none; }
+  .nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: gray; }
+    .nav ul a:hover {
+      color: royalblue; }
+
+.footer h3:hover {
+  color: royalblue;
+  background-color: orange; }
+
+.heading, .banner h1, .banner h3 {
+  color: orange;
+  font-size: 40px;
+  background-color: red;
+  text-align: center; }
+
+.banner h1:hover, .banner .footer h3:hover, .footer .banner h3:hover {
+  background-color: green; }
+
+.nav {
+  background-color: #ffc966;
+  background-color: #996300;
+  background-color: rgba(255, 165, 0, 0.4);
+  background-color: rgba(255, 165, 0, 0);
+  background-color: #004080;
+  background-color: #00731a; }
+
+.banner p {
+  font-size: 30px; }
+
+.footer p {
+  font-size: 60px; }
+
+.banner h1, .banner .footer h3, .footer .banner h3 {
+  font-size: 40px;
+  color: red;
+  text-align: center; }
+
+.footer h3 {
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  transition: color 0.5s, background-color 1s; }
+
+.nav {
+  background-color: orange; }
+  .nav ul li {
+    list-style: none; }
+  .nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: red; }
+    .nav ul a:hover {
+      color: royalblue; }
+
+h1, .footer h3 {
+  color: orange;
+  font-size: 40px;
+  background-color: red;
+  text-align: center; }
+
+h1:hover, .footer h3:hover {
+  background-color: green;
+  color: brown; }
+
+.heading, .banner h1, .banner h3 {
+  color: orange;
+  font-size: 40px;
+  background-color: red;
+  text-align: center; }
+
+.banner h1:hover, .banner .footer h3:hover, .footer .banner h3:hover {
+  background-color: green; }
+
+.person2-section {
+  background-color: #303690; }
+
+.heading-secondary {
+  color: #ea9a96; }
+
+.para {
+  color: #fff; }

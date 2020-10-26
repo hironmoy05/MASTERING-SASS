@@ -1,0 +1,21 @@
+.nav {
+  background-color: lighten($color-primary, 20%);
+  background-color: darken($color-primary, 20%);
+  background-color: transparentize($color-primary, .6);
+  background-color: transparentize($color-primary, 1);
+  background-color: mix(blue, green);
+  background-color: mix(blue, green, 10%);
+}
+
+
+@function fontSize($size: 25px) {
+  @return $size * 2;
+}
+
+.banner p {
+  font-size: fontSize(15px);
+}
+
+.footer p {
+  font-size: fontSize(30px);
+}

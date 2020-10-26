@@ -1,0 +1,19 @@
+// mixin
+@mixin headingStyles($fontSize: 50px) {
+  font-size: $fontSize;
+  color: $color-secondary;
+  text-align: center;
+}
+
+@mixin transition($para...) {
+  transition: $para;
+}
+
+.banner h1 {
+  @include headingStyles($font-lg);
+}
+
+.footer h3 {
+   @include headingStyles();
+   @include transition(color .5s, background-color 1s);
+}

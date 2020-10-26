@@ -1,0 +1,20 @@
+// Sass map as object => key-value pairs
+
+$colors: (
+ "color-primary": #303690,
+ "color-secondary": #ea9a96,
+ "color-tertiary": #f8b24f,
+ "color-white": #fff,
+);
+
+.person2-section{
+  background-color: map-get($colors, color-primary);
+}
+
+.heading-secondary {
+  color: map-get($colors, color-secondary);
+}
+
+.para {
+  color: map-get($colors, color-white);
+}
